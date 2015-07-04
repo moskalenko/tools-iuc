@@ -1,0 +1,32 @@
+<macros>
+    <xml name="requirements">
+        <requirements>
+            <requirement type="package" version="1.9">numpy</requirement>
+            <requirement type="package" version="0.15">scikit_learn</requirement>
+            <requirement type="package" version="0.14.1">pandas</requirement>
+        </requirements>
+    </xml>
+  <token name="@WRAPPER_VERSION@">1.0</token>
+  <token name="@SECIMTOOLS_VERSION@">SECIM1.0</token>
+  <token name="@EXTERNAL_DOCUMENTATION@">
+
+For details about this tool, please go to:
+	http://secim.rc.ufl.edu/wiki/Category:Software
+  </token>
+  <token name="@CITATION_SECTION@">------
+
+**Citation**
+
+For the underlying tools, please cite the following publication:
+
+SECIM Tools citation:
+"SECIM Tools for metabolomic research.", Fear J, Ashrafi A, Morse A, Moskalenko O, McIntyre L. JOURNAL 6(2):80-92, 2012
+
+  </token>
+  <xml name="citations">
+      <citations>
+        <citation type="doi">12.3456/journal.12345</citation>
+        <yield />
+      </citations>
+  </xml>
+</macros>
